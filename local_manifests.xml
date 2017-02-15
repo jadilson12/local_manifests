@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote name="bitbucket" fetch="https://bitbucket.org/" />
-<remote name="j144" fetch="ssh://git@bitbucket.org/j144" />
-
-
-	
-
 <!-- Remove CMTE -->
 <remove-project name="LineageOS/android_packages_apps_ThemeChooser" />
 <remove-project name="LineageOS/android_packages_providers_ThemesProvider" />
@@ -20,7 +14,7 @@
 <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
 
 <remove-project name="packages_apps_ResurrectionOTA" />
-<project path="packages/apps/ResurrectionOTA" name="packages_apps_ResurrectionOTA" remote="j144" revision="nougat" >
+<project path="packages/apps/ResurrectionOTA" name="j144df/packages_apps_ResurrectionOTA" remote="github" revision="nougat" >
 	<copyfile src="ota_conf" dest="ota_conf" />
 </project>
 
