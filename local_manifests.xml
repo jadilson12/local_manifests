@@ -14,13 +14,13 @@
 <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
 
 <remove-project name="packages_apps_ResurrectionOTA" />
-<project path="packages/apps/ResurrectionOTA" name="packages_apps_ResurrectionOTA" remote="j144df" revision="nougat" >
+<project path="packages/apps/ResurrectionOTA" name="DevbrAndroid/packages_apps_ResurrectionOTA" remote="github" revision="nougat" >
 	<copyfile src="ota_conf" dest="ota_conf" />
 </project>
 
 <project path="external/bson" name="LineageOS/android_external_bson" remote="github" revision="cm-14.1" />
 <project path="vendor/motorola/athene" name="boulzordev/proprietary_vendor_motorola_athene" remote="github" revision="cm-14.1" />
-<project path="device/motorola/athene" name="android_device_motorola_athene" remote="j144df" revision="cm-14.1" />
+<project path="device/motorola/athene" name="DevbrAndroid/android_device_motorola_athene" remote="github" revision="cm-14.1" />
 <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
 
 </manifest>
