@@ -3,7 +3,7 @@
 
 <remote name="bitbucket" fetch="https://bitbucket.org/" />
 <remote name="j144" fetch="ssh://git@bitbucket.org/j144" />
-<remote name="j144df" fetch="https://github.com/j144df" />
+
 
 	
 
@@ -26,8 +26,7 @@
 
 <project path="external/bson" name="LineageOS/android_external_bson" remote="github" revision="cm-14.1" />
 <project path="vendor/motorola/athene" name="boulzordev/proprietary_vendor_motorola_athene" remote="github" revision="cm-14.1" />
-<project path="device/motorola/athene" name="android_device_motorola_athene" remote="j144df" revision="cm-14.1" />
-<project path="kernel/motorola/athene" name="sileshnp/android_kernel_motorola_athene" remote="bitbucket" revision="cm-14.1" />
+<project path="device/motorola/athene" name="j144df/android_device_motorola_athene" remote="github" revision="cm-14.1" />
 <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
 
 </manifest>
