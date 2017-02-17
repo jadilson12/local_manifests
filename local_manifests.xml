@@ -24,9 +24,9 @@
 	<copyfile src="ota_conf" dest="ota_conf" />
 </project>
 
-<!--<project path="external/bson" name="LineageOS/android_external_bson" remote="github" revision="cm-14.1" />
-<project path="vendor/motorola/athene" name="boulzordev/proprietary_vendor_motorola_athene" remote="github" revision="cm-14.1" />
-<project path="device/motorola/athene" name="DevbrAndroid/android_device_motorola_athene" remote="github" revision="cm-14.1" />
-<project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" /> --->
+<!--<project path="external/bson" name="LineageOS/android_external_bson" remote="github" revision="cm-14.1" />--->
+<!--<project path="vendor/motorola/athene" name="boulzordev/proprietary_vendor_motorola_athene" remote="github" revision="cm-14.1" />--->
+<!--<project path="device/motorola/athene" name="DevbrAndroid/android_device_motorola_athene" remote="github" revision="cm-14.1" />--->
+<!--<project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" /> --->
 
 </manifest>
