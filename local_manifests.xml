@@ -11,7 +11,7 @@
 <remove-project name="LineageOS/android_packages_apps_CMFileManager" />
 <remove-project name="LineageOS/android_packages_apps_Camera2" />
 
-<remove-project name="ResurrectionRemix/android_build" />
+<remove-project name="android_build" />
  <project path="build" name="DevbrAndroid/android_build" remote="github" revision="nougat"  >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
