@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="sileshn" fetch="https://bitbucket.org/sileshn" />
+
 <!-- Remove CMTE -->
 <remove-project name="LineageOS/android_packages_apps_ThemeChooser" />
 <remove-project name="LineageOS/android_packages_providers_ThemesProvider" />
@@ -26,7 +26,7 @@
 <project path="vendor/motorola/athene" name="boulzordev/proprietary_vendor_motorola_athene" remote="github" revision="cm-14.1" />
 <project path="external/bson" name="LineageOS/android_external_bson" remote="github" revision="cm-14.1" />
 <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
-<project path="kernel/motorola/athene" name="android_kernel_motorola_athene" remote="sileshnp" revision="cm-14.1" />
+
 
   
   
