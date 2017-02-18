@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="j144df" fetch="https://github.com/j144df" />
+
 <!-- Remove CMTE -->
 <remove-project name="LineageOS/android_packages_apps_ThemeChooser" />
 <remove-project name="LineageOS/android_packages_providers_ThemesProvider" />
@@ -10,24 +10,5 @@
 <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
 <remove-project name="LineageOS/android_packages_apps_CMFileManager" />
 <remove-project name="LineageOS/android_packages_apps_Camera2" />
-<!--<remove-project name="android_build" />--->
-<remove-project name="packages_apps_ResurrectionOTA" />
- 
-<!--<project path="build" name="android_build" remote="j144df" revision="cm-14.1">
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>--->
-
-<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
-
-
-<project path="packages/apps/ResurrectionOTA" name="DevbrAndroid/packages_apps_ResurrectionOTA" remote="github" revision="nougat" >
-	<copyfile src="ota_conf" dest="ota_conf" />
-</project>
-
-<!--<project path="external/bson" name="LineageOS/android_external_bson" remote="github" revision="cm-14.1_prerebase" />--->
-<!--<project path="device/motorola/athene" name="DevbrAndroid/android_device_motorola_athene" remote="github" revision="cm-14.1" />--->
-<!--<project path="vendor/motorola/athene" name="boulzordev/proprietary_vendor_motorola_athene" remote="github" revision="cm-14.1_prerebase" />
-<!--<project path="device/motorola/athene" name="DevbrAndroid/android_device_motorola_athene" remote="github" revision="cm-14.1" />--->
-<!--<project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1_prerebase" />--->
 
 </manifest>
