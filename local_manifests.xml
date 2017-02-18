@@ -15,7 +15,7 @@
 <remove-project name="LineageOS/android_packages_apps_Eleven" />
 <remove-project name="LineageOS/android_packages_apps_Gello" />
 <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
-<remove-project name="LineageOS/android_packages_apps_Exchange" />
+
 
 <project path="vendor/cm" name="DevbrAndroid/android_vendor_resurrection" remote="github" revision="nougat" />  
  
