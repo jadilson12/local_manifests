@@ -13,7 +13,7 @@
 <remove-project name="packages_apps_ResurrectionStats" />
 <remove-project name="android_vendor_resurrection" />
 
-<project path="vendor/cm" name="DevbrAndroid/android_vendor_resurrection" remote="github" />  
+<project path="vendor/cm" name="DevbrAndroid/android_vendor_resurrection" remote="github" revision="nougat" />  
  
 <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
 
