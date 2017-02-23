@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
+ <remote  name="rau"
+	   fetch="https://github.com/rahulsnair"
+	   revision="cm-14.1" />
 <!-- Remove CMTE -->
 <remove-project name="LineageOS/android_packages_apps_ThemeChooser" />
 <remove-project name="LineageOS/android_packages_providers_ThemesProvider" />
@@ -32,6 +34,7 @@
 <project path="vendor/motorola/athene" name="MoKee/android_vendor_motorola_athene" remote="github" revision="mkn-mr1" />
 <project path="external/bson" name="LineageOS/android_external_bson" remote="github" revision="cm-14.1" />
 <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
+<project path="kernel/motorola/msm8952" name="android_kernel_motorola_msm8952" remote="github" revision="cm-14.1" />
 
 
   
