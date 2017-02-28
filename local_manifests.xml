@@ -23,7 +23,7 @@
 <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
 
 <remove-project name="packages_apps_ResurrectionOTA" />
-<project path="packages/apps/ResurrectionOTA" name="j144df/packages_apps_ResurrectionOTA" remote="github" revision="nougat" >
+<project path="packages/apps/ResurrectionOTA" name="DevbrAndroid/packages_apps_ResurrectionOTA" remote="github" revision="nougat" >
 	<copyfile src="ota_conf" dest="ota_conf" />
 </project>
 	
@@ -32,7 +32,7 @@
 <project path="external/bson" name="LineageOS/android_external_bson" remote="github" revision="cm-14.1" />
 <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
 <project path="device/motorola/athene" name="j144df/android_device_motorola_athene" remote="github" revision="cm-14.1" />
-<project path="kernel/motorola/msm8952" name="j144df/ndroid_kernel_motorola_athene" remote="github" revision="cm-14.1" />
+<project path="kernel/motorola/msm8952" name="rahulsnair/android_kernel_motorola_athene" remote="github" revision="cm-14.1" />
 
   
   
