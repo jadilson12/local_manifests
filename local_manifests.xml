@@ -2,6 +2,13 @@
 <manifest>
 	<remote name="j144df" fetch="https://github.com/j144df" />
 	<remote name="rahulsnair" fetch="https://github.com/rahulsnair" />
+	<remote name="opengapps" fetch="https://github.com/opengapps/"  />
+
+<project path="vendor/google/build" name="aosp_build" revision="master" remote="opengapps" />
+<project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps" />
+
+<!-- arm64 depends on arm -->
+<project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
 	
 <!-- Remove CMTE -->
 <remove-project name="LineageOS/android_packages_apps_ThemeChooser" />
