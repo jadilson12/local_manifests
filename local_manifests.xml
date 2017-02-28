@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="j144df" fetch="https://github.com/j144df" />
-	<remote name="github" fetch="https://github.com" />
-
-	
+		
 <!-- Remove CMTE -->
 <remove-project name="LineageOS/android_packages_apps_ThemeChooser" />
 <remove-project name="LineageOS/android_packages_providers_ThemesProvider" />
