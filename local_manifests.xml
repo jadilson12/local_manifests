@@ -19,7 +19,6 @@
 <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
 <remove-project name="LineageOS/android_packages_apps_Exchange" />
 <remove-project name="LineageOS/android_packages_apps_Recorder" />
-<project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" />
 
 
 <project path="vendor/cm" name="DevbrAndroid/android_vendor_resurrection" remote="github" revision="nougat" />  
