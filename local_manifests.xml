@@ -15,7 +15,6 @@
 <remove-project name="packages_apps_ResurrectionStats" />
 <remove-project name="android_vendor_resurrection" />
 <remove-project name="LineageOS/android_packages_apps_Eleven" />
-<remove-project name="LineageOS/android_packages_apps_Gello" />
 <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
 <remove-project name="LineageOS/android_packages_apps_Exchange" />
 <remove-project name="LineageOS/android_packages_apps_Recorder" />
