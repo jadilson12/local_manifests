@@ -13,6 +13,7 @@
 <remove-project name="LineageOS/android_packages_apps_Eleven" />
 <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
 <remove-project name="LineageOS/android_packages_apps_Recorder" />
+<remove-project name="LineageOS/android_packages_apps_AudioFX" />
 
 
 <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
