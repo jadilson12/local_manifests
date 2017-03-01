@@ -10,14 +10,11 @@
 <remove-project name="LineageOS/android_packages_apps_CMFileManager" />
 <remove-project name="LineageOS/android_packages_apps_Camera2" />
 <remove-project name="packages_apps_ResurrectionStats" />
-<remove-project name="android_vendor_resurrection" />
 <remove-project name="LineageOS/android_packages_apps_Eleven" />
 <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
 <remove-project name="LineageOS/android_packages_apps_Recorder" />
 
 
-<project path="vendor/cm" name="DevbrAndroid/android_vendor_resurrection" remote="github" revision="nougat" />  
- 
 <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
 
 <remove-project name="packages_apps_ResurrectionOTA" />
@@ -25,7 +22,6 @@
 	<copyfile src="ota_conf" dest="ota_conf" />
 </project>
 	
-
 <project path="vendor/motorola/athene" name="MoKee/android_vendor_motorola_athene" remote="github" revision="mkn-mr1" />
 <project path="external/bson" name="LineageOS/android_external_bson" remote="github" revision="cm-14.1" />
 <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
