@@ -13,10 +13,10 @@
 <remove-project name="LineageOS/android_packages_apps_Eleven" />
 <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
 <remove-project name="LineageOS/android_packages_apps_Recorder" />
-<!--<remove-project name="LineageOS/android_packages_apps_AudioFX" />
+<remove-project name="LineageOS/android_packages_apps_AudioFX" />
 <remove-project name="LineageOS/android_hardware_qcom_audio" />
 <project path="hardware/qcom/audio-caf/msm8952" name="DevbrAndroid/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8952" />
--->
+
 <remove-project name="android_build" />
 <project path="build" name="DevbrAndroid/android_build" remote="github" revision="nougat" >
     <copyfile src="core/root.mk" dest="Makefile" />
