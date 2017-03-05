@@ -35,6 +35,5 @@
 <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
 <project path="device/motorola/athene" name="j144df/android_device_motorola_athene" remote="github" revision="rr" />
 <project path="kernel/motorola/msm8952" name="rahulsnair/android_kernel_motorola_msm8952" remote="github" revision="cm-14.1" />
-<project path="packages/apps/ViPER4Android" name="j144df/packages_apps_Viper4Android" remote="github" revision="nougat" />
   
 </manifest>
