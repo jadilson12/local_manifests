@@ -16,6 +16,8 @@
 <remove-project name="android_vendor_resurrection" />
 <remove-project name="android_build" />
 <remove-project name="packages_apps_ResurrectionOTA" />
+<remove-project name="LineageOS/android_packages_apps_Exchange" />
+<remove-project name="LineageOS/android_packages_apps_SetupWizard" />
 	
 <project path="vendor/cm" name="DevbrAndroid/android_vendor_resurrection" remote="github" revision="nougat"/>
 <project path="build" name="DevbrAndroid/android_build" remote="github" revision="nougat" >
@@ -31,7 +33,7 @@
 <project path="vendor/motorola/athene" name="MoKee/android_vendor_motorola_athene" remote="github" revision="mkn-mr1" />
 <project path="external/bson" name="LineageOS/android_external_bson" remote="github" revision="cm-14.1" />
 <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
-<project path="device/motorola/athene" name="j144df/android_device_motorola_athene" remote="github" revision="cm-14.1" />
+<project path="device/motorola/athene" name="j144df/android_device_motorola_athene" remote="github" revision="rr" />
 <project path="kernel/motorola/msm8952" name="rahulsnair/android_kernel_motorola_msm8952" remote="github" revision="cm-14.1" />
 <project path="packages/apps/ViPER4Android" name="j144df/packages_apps_Viper4Android" remote="github" revision="nougat" />
   
