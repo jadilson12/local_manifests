@@ -33,8 +33,8 @@
 <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
 <project path="device/motorola/athene" name="LineageOS/android_device_motorola_athene" remote="github" revision="cm-14.1" />
 <!--<project path="kernel/motorola/msm8952" name="rahulsnair/android_kernel_motorola_msm8952" remote="github" revision="cm-14.1" />
-<project path="device/motorola/athene" name="DevbrAndroid/dathene" remote="github" revision="cm-14.1-oms" />	
-<!--<project path="kernel/motorola/msm8952" name="MoKee/android_kernel_motorola_msm8952" remote="github" revision="mkn-mr1" />-->
+<!--<project path="device/motorola/athene" name="DevbrAndroid/dathene" remote="github" revision="cm-14.1-oms" />-->	
+<!-- <project path="kernel/motorola/msm8952" name="MoKee/android_kernel_motorola_msm8952" remote="github" revision="mkn-mr1" />-->
 	
   
 </manifest>
