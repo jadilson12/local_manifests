@@ -17,13 +17,15 @@
 <!--	
 <remove-project name="android_build" />
 <project path="build" name="DevbrAndroid/android_build" remote="github" revision="nougat" >
+<project path="vendor/cm" name="DevbrAndroid/android_vendor_resurrection" remote="github" revision="nougat"/>
     <copyfile src="core/root.mk" dest="Makefile" />
 </project>
 -->	
-<project path="vendor/cm" name="DevbrAndroid/android_vendor_resurrection" remote="github" revision="nougat"/>
-<copyfile src="ota_conf" dest="ota_conf" />
+
+
 <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
-<project path="packages/apps/ResurrectionOTA" name="DevbrAndroid/packages_apps_ResurrectionOTA" remote="github" revision="nougat" >	
+<project path="packages/apps/ResurrectionOTA" name="DevbrAndroid/packages_apps_ResurrectionOTA" remote="github" revision="nougat" >
+	<copyfile src="ota_conf" dest="ota_conf" />
 </project>
 	
 <!-- Device CMTE -->	
