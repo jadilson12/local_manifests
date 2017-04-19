@@ -13,21 +13,20 @@
 <remove-project name="LineageOS/android_packages_apps_Recorder" />
 <remove-project name="LineageOS/android_packages_apps_Exchange" />
 <remove-project name="packages_apps_ResurrectionOTA" />		
-<!--	
 <remove-project name="android_vendor_resurrection" />
+<!--	
 <remove-project name="android_build" />
-
-<project path="vendor/cm" name="DevbrAndroid/android_vendor_resurrection" remote="github" revision="nougat"/>
 <project path="build" name="DevbrAndroid/android_build" remote="github" revision="nougat" >
     <copyfile src="core/root.mk" dest="Makefile" />
 </project>
-<copyfile src="ota_conf" dest="ota_conf" />
 -->	
+<project path="vendor/cm" name="DevbrAndroid/android_vendor_resurrection" remote="github" revision="nougat"/>
+<copyfile src="ota_conf" dest="ota_conf" />
 <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
 <project path="packages/apps/ResurrectionOTA" name="DevbrAndroid/packages_apps_ResurrectionOTA" remote="github" revision="nougat" >	
 </project>
 	
-	
+<!-- Device CMTE -->	
 <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-14.1" />
 <project path="external/bson" name="LineageOS/android_external_bson" remote="github" revision="cm-14.1" />
 <project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="cm-14.1" />
