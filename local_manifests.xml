@@ -28,7 +28,14 @@
 
 <!-- Device osprey -->	
 <project path="kernel/motorola/msm8916" name="LineageOS/android_kernel_motorola_msm8916" remote="github" revision="cm-14.1" />
-<project path="device/motorola/osprey" name="LineageOS/android_device_motorola_osprey" remote="github" revision="rr" />	
-	
-	
+<project path="device/motorola/osprey" name="LineageOS/android_device_motorola_osprey" remote="github" revision="cm-14.1
+" />	
+
+<!-- Device thea -->	
+<project path="kernel/motorola/msm8226" name="LineageOS/android_kernel_motorola_msm8226" remote="github" revision="cm-14.1" />
+<project path="device/motorola/thea" name="LineageOS/android_device_motorola_thea" remote="github" revision="cm-14.1
+" />	
+<project path="device/motorola/msm8226-common" name="AOKP/device_motorola_msm8226-common" remote="github" revision="nougat
+" />		
+<project path="vendor/motorola/thea" name="MoKee/android_vendor_motorola_thea" remote="github" revision="mkn-mr1" />	
 </manifest>
