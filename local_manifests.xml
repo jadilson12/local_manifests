@@ -13,6 +13,9 @@
 <remove-project name="LineageOS/android_packages_apps_Recorder" />
 <remove-project name="LineageOS/android_packages_apps_Exchange" />
 <remove-project name="packages_apps_ResurrectionOTA" />	
+	
+<!-- Apps -->
+<project path="packages/apps/KernelAdiutor" name="CandyDevices/packages_apps_KernelAdiutor" remote="github" revision="Candy" />
 <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
 <project path="packages/apps/ResurrectionOTA" name="Rediton/packages_apps_ResurrectionOTA" remote="github" revision="nougat" >
 	<copyfile src="ota_conf" dest="ota_conf" />
