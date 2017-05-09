@@ -15,7 +15,7 @@
 <remove-project name="packages_apps_ResurrectionOTA" />
 <remove-project name="android_vendor_resurrection" />	
 <remove-project name="android_build" />
-<remove-project name="Resurrection_packages_apps_Settings" />	
+
 	
 	
 <!-- Apps -->
@@ -23,7 +23,7 @@
   <project path="build" name="Rediton/android_build" remote="github" revision="nougat" >
     <copyfile src="core/root.mk" dest="Makefile" />
 </project>
-<project path="packages/apps/Settings" name="Rediton/Resurrection_packages_apps_Settings" remote="github" revision="nougat"/>
+
 <project path="vendor/cm" name="Rediton/android_vendor_resurrection" remote="github" revision="nougat"/>
 <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
 <project path="packages/apps/ResurrectionOTA" name="Rediton/packages_apps_ResurrectionOTA" remote="github" revision="nougat" >
