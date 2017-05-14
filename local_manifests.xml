@@ -12,6 +12,7 @@
 <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
 <remove-project name="LineageOS/android_packages_apps_Recorder" />
 <remove-project name="LineageOS/android_packages_apps_Exchange" />
+<remove-project name="LineageOS/android_packages_apps_Jelly" />
 <remove-project name="packages_apps_ResurrectionOTA" />
 <remove-project name="android_vendor_resurrection" />	
 <remove-project name="android_build" />
@@ -20,23 +21,23 @@
 	
 <!-- Apps -->
 
-  <project path="build" name="Rediton/android_build" remote="github" revision="nougat" >
+  <project path="build" name="Redition/android_build" remote="github" revision="nougat" >
     <copyfile src="core/root.mk" dest="Makefile" />
 </project>
 
-<project path="vendor/cm" name="Rediton/android_vendor_resurrection" remote="github" revision="nougat"/>
+<project path="vendor/cm" name="Redition/android_vendor_resurrection" remote="github" revision="nougat"/>
 <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
-<project path="packages/apps/ResurrectionOTA" name="Rediton/packages_apps_ResurrectionOTA" remote="github" revision="nougat" >
+<project path="packages/apps/ResurrectionOTA" name="Redition/packages_apps_ResurrectionOTA" remote="github" revision="nougat" >
 	<copyfile src="ota_conf" dest="ota_conf" />
 </project>
 	
 <!-- Device Athene -->	
-<project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-14.1" />
+<project path="vendor/motorola" name="Redition/proprietary_vendor_motorola" remote="github" revision="cm-14.1" />
 <project path="external/bson" name="LineageOS/android_external_bson" remote="github" revision="cm-14.1" />
 <project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="cm-14.1" />
 <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
 <project path="kernel/motorola/msm8952" name="rahulsnair/android_kernel_motorola_msm8952" remote="github" revision="cm-14.1" />
-<project path="device/motorola/athene" name="Rediton/android_device_motorola_athene" remote="github" revision="rr" />	
+<project path="device/motorola/athene" name="Redition/android_device_motorola_athene" remote="github" revision="rr" />	
 
 
 <!-- Device thea -->	
