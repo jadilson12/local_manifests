@@ -19,7 +19,6 @@
 
 <!-- Apps -->
 <project path="vendor/cm" name="Redition/android_vendor_resurrection" remote="github" revision="nougat" />
-<project path="packages/apps/KernelAdiutor" name="Redition/android_packages_apps_KernelAdiutor" remote="github" revision="bs7.1" />
 <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
 
 <project path="packages/apps/ResurrectionOTA" name="Redition/packages_apps_ResurrectionOTA" remote="github" revision="nougat" >
