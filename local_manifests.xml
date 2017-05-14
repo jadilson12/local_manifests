@@ -23,9 +23,10 @@
 <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
 <project path="packages/apps/ResurrectionOTA" name="Redition/packages_apps_ResurrectionOTA" remote="github" revision="nougat" />
 	<copyfile src="ota_conf" dest="ota_conf" />
-<project path="build" name="Redition/android_build" remote="github" revision="nougat" />
-    <copyfile src="core/root.mk" dest="Makefile" />
 </project>
+	
+<project path="build" name="Redition/android_build" remote="github" revision="nougat" />
+ 
 	
 <!-- Device Athene -->	
 <project path="vendor/motorola" name="Redition/proprietary_vendor_motorola" remote="github" revision="cm-14.1" />
