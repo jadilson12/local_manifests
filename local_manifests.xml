@@ -17,14 +17,7 @@
 <remove-project name="android_vendor_resurrection" />	
 <remove-project name="android_build" />
 
-	
-	
 <!-- Apps -->
-
- <project path="build" name="Redition/android_build" remote="github" revision="nougat" />
-    <copyfile src="core/root.mk" dest="Makefile" />
-  
-
 <project path="vendor/cm" name="Redition/android_vendor_resurrection" remote="github" revision="nougat" />
 <project path="packages/apps/KernelAdiutor" name="Redition/android_packages_apps_KernelAdiutor" remote="github" revision="bs7.1" >
 <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
