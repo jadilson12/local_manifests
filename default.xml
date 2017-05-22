@@ -501,5 +501,6 @@
 
   <include name="snippets/rr-n.xml" />
   <include name="snippets/cm.xml" />
+  <include name="snippets/athene.xml" />
 
 </manifest>

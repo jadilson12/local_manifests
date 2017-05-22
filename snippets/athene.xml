@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+		
+
+<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
+
+<!-- Device Athene -->	
+<project path="vendor/motorola" name="Redition/proprietary_vendor_motorola" remote="github" revision="cm-14.1" />
+<project path="external/bson" name="LineageOS/android_external_bson" remote="github" revision="cm-14.1" />
+<project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="cm-14.1" />
+<project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
+<project path="kernel/motorola/msm8952" name="rahulsnair/android_kernel_motorola_msm8952" remote="github" revision="cm-14.1" />
+<project path="device/motorola/athene" name="Redition/android_device_motorola_athene" remote="github" revision="rr" /> 	
+
+</manifest>
