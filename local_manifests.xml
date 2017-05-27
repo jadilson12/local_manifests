@@ -16,7 +16,7 @@
 <remove-project name="packages_apps_ResurrectionOTA" />
 <remove-project name="android_vendor_resurrection" />	
 <remove-project name="android_build" />
-<remove-project name="packages/apps/Settings" />
+<remove-project name="Resurrection_packages_apps_Settings" />
 
 <!-- Apps -->
 <project path="vendor/cm" name="Redition/android_vendor_resurrection" remote="github" revision="nougat" />
