@@ -30,7 +30,7 @@
  <copyfile src="core/root.mk" dest="Makefile" />
 </project>	
 <!-- Device Athene -->	
-<project path="vendor/motorola" name="Redition/proprietary_vendor_motorola" remote="github" revision="cm-14.1" />
+<project path="vendor/motorola" name="boulzordev/proprietary_vendor_motorola_athene" remote="github" revision="cm-14.1" />
 <project path="external/bson" name="LineageOS/android_external_bson" remote="github" revision="cm-14.1" />
 <project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="cm-14.1" />
 <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
