@@ -14,19 +14,18 @@
 <remove-project name="LineageOS/android_packages_apps_Exchange" />
 <remove-project name="LineageOS/android_packages_apps_Jelly" />
 <remove-project name="packages_apps_ResurrectionOTA" />
-<remove-project name="android_vendor_resurrection" />	
-<remove-project name="android_build" />
+<!--<remove-project name="android_vendor_resurrection" />	
+<remove-project name="android_build" />-->
 
 <!-- Apps -->
-<project path="vendor/cm" name="Redition/android_vendor_resurrection" remote="github" revision="nougat" />
-<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
-
+<!--<project path="vendor/cm" name="Redition/android_vendor_resurrection" remote="github" revision="nougat" />
+     <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
+     <project path="build" name="Redition/android_build" remote="github" revision="nougat" >
+     <copyfile src="core/root.mk" dest="Makefile" />
+     </project>  -->
+          
 <project path="packages/apps/ResurrectionOTA" name="Redition/packages_apps_ResurrectionOTA" remote="github" revision="nougat" >
 	<copyfile src="ota_conf" dest="ota_conf" />
-</project>
-	
-<project path="build" name="Redition/android_build" remote="github" revision="nougat" >
- <copyfile src="core/root.mk" dest="Makefile" />
 </project>	
 
 
