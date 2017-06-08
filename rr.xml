@@ -19,7 +19,7 @@
 
 <!-- Apps -->
 <!--<project path="vendor/cm" name="Redition/android_vendor_resurrection" remote="github" revision="nougat" />
-     <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
+     
      <project path="build" name="Redition/android_build" remote="github" revision="nougat" >
      <copyfile src="core/root.mk" dest="Makefile" />
      </project>  -->
