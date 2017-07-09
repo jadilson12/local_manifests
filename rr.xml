@@ -2,8 +2,6 @@
 <manifest>
 		
 <!-- Remove CMTE -->
-<remove-project name="LineageOS/android_packages_providers_ThemesProvider" />
-<remove-project name="LineageOS/android_packages_services_ThemeManagerService" />
 <remove-project name="LineageOS/android_packages_themes_HexoLibre" />
 <remove-project name="LineageOS/android_packages_apps_Gello" />
 <remove-project name="LineageOS/android_packages_apps_CMFileManager" />
