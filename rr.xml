@@ -2,7 +2,6 @@
 <manifest>
 		
 <!-- Remove CMTE -->
-<remove-project name="LineageOS/android_packages_themes_HexoLibre" />
 <remove-project name="LineageOS/android_packages_apps_Gello" />
 <remove-project name="LineageOS/android_packages_apps_CMFileManager" />
 <remove-project name="LineageOS/android_packages_apps_Eleven" />
@@ -13,7 +12,7 @@
 <remove-project name="packages_apps_ResurrectionOTA" />
 <remove-project name="android_vendor_resurrection" />	
 <remove-project name="android_build" />
-<remove-project name="packages_apps_MusicFX" />
+
 
 <!-- Apps -->
 <project path="vendor/cm" name="Redition/android_vendor_resurrection" remote="github" revision="nougat" />
