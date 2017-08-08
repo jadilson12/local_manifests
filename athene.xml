@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	
+
+<remote  name="bb"
+           fetch="https://bitbucket.org/"/>
+
+  <remove-project name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
+
+<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.3" name="matthewdalex/arm-eabi-5.x" remote="bb" revision="master" />	
 <!-- Device Athene -->	
 <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-14.1" />
 <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
