@@ -2,13 +2,14 @@
 <manifest>
 		
 	<!-- Remove CMTE -->
-	<remove-project name="LineageOS/android_packages_apps_Gello" />
+	<!--<remove-project name="LineageOS/android_packages_apps_Gello" />
 	<remove-project name="LineageOS/android_packages_apps_CMFileManager" />
 	<remove-project name="LineageOS/android_packages_apps_Eleven" />
 	<remove-project name="LineageOS/android_packages_apps_Trebuchet" />
 	<remove-project name="LineageOS/android_packages_apps_Recorder" />
 	<remove-project name="LineageOS/android_packages_apps_Exchange" />
 	<remove-project name="LineageOS/android_packages_apps_Jelly" />
+-->
 	<remove-project name="packages_apps_ResurrectionOTA" />
 	<remove-project name="android_vendor_resurrection" />	
 	<remove-project name="android_build" />
