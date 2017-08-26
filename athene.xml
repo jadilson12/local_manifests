@@ -20,11 +20,11 @@
 	<project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
 	<project path="kernel/motorola/msm8952" name="LineageOS/android_kernel_motorola_msm8952" remote="github" revision="cm-14.1" />
 	<project path="device/motorola/athene" name="Redition/android_device_motorola_athene" remote="github" revision="nougat" /> 
-	+<!-- Device thea -->
+	<!-- Device thea -->
 
  <project path="kernel/motorola/msm8226" name="LineageOS/android_kernel_motorola_msm8226" remote="github" revision="cm-14.1" />
  <project path="device/motorola/thea" name="LineageOS/android_device_motorola_thea" remote="github" revision="cm-14.1" />	
- <project path="device/motorola/msm8226-common" name="LineageOS/android_device_motorola_msm8226-common" remote="github" revision="nougat" />
+ <project path="device/motorola/msm8226-common" name="LineageOS/android_device_motorola_msm8226-common" remote="github" revision="cm-14.1" />
 
 
 </manifest>
