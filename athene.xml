@@ -3,6 +3,9 @@
 
 	<remote  name="bb"
          fetch="https://bitbucket.org/"/>
+		 
+	<project path="vendor/private" name="MoKee/mk_private"  remote="github" revision="mkn-mr1" />
+	<project path="packages/apps/Lawnchair" name="MoKee/android_packages_apps_Lawnchair" />
 
 	<remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
 	
