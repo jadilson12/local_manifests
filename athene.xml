@@ -25,6 +25,12 @@
  <project path="kernel/motorola/msm8226" name="LineageOS/android_kernel_motorola_msm8226" remote="github" revision="cm-14.1" />
  <project path="device/motorola/thea" name="LineageOS/android_device_motorola_thea" remote="github" revision="cm-14.1" />	
  <project path="device/motorola/msm8226-common" name="LineageOS/android_device_motorola_msm8226-common" remote="github" revision="cm-14.1" />
+ 
+ <!-- ASUS -->
+  <project path="device/asus/Z00A" name="ViperOS-Devices/android_device_asus_Z00A" remote="github" revision="nougat" depth="1" />
+  <project path="device/asus/mofd-common" name="LineageOS/android_device_asus_mofd-common" remote="github" revision="cm-14.1" depth="1" />
+  <project path="kernel/asus/moorefield" name="LineageOS/android_kernel_asus_moorefield" remote="github" revision="cm-14.1" depth="1" />
+  <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" remote="github" revision="cm-14.1" depth="1" />
 
 
 </manifest>
