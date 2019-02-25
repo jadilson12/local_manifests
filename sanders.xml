@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!--device -->
-<project path="hardware/qcom/display-caf/msm8937" name="boulzordev/android_hardware_qcom_display" remote="github" revision="bzr-8.1-8937" />
-<project path="hardware/qcom/audio-caf/msm8937" name="boulzordev/android_hardware_qcom_audio" remote="github" revision="bzr-8.1-8937" />
-<project path="hardware/qcom/media-caf/msm8937" name="boulzordev/android_hardware_qcom_media" remote="github" revision="bzr-8.1-8937" />
-<!--<project path="packages/resources/MotoActions" name="PixelExperience/packages_resources_MotoActions" remote="github" revision="oreo-mr1" />-->
-<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="staging/lineage-15.1" />
-<project path="kernel/motorola/msm8953" name="therootlord/android_kernel_motorola_msm8953" remote="github" revision="8.1-64" />
-<project path="vendor/motorola/sanders" name="BigTopKrazies/vendor_motorola_sanders" remote="github" revision="8.1" />
-<project path="device/motorola/sanders" name="j144df/device_motorola_sanders" remote="github" revision="rr" />
+
+<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-16.0"/>
+<project path="system/qcom" name="LineageOS/android_system_qcom" remote="github" revision="lineage-16.0" />
+
+
+<!-- <remove-project name="LineageOS/android_hardware_qcom_audio" /> -->
+<!-- <remove-project name="LineageOS/android_hardware_qcom_media"/> -->
+<!-- <remove-project name="LineageOS/android_hardware_qcom_display" /> -->
+
+<!-- <project path="hardware/qcom/audio-caf/msm8996" name="AOSiP/platform_hardware_qcom_audio" remote="github" revision="pie-caf-8996" /> -->
+<!-- <project path="hardware/qcom/display-caf/msm8996" name="AOSiP/platform_hardware_qcom_display" remote="github" revision="pie-caf-8996" /> -->
+<!-- <project path="hardware/qcom/media-caf/msm8996" name="AOSiP/platform_hardware_qcom_media" remote="github" revision="pie-caf-8996" /> -->
+
+
+<!-- <project path="hardware/qcom/display-caf/" name="sandyorton7/display" remote="github" revision="pie"/> -->
+<!-- <project path="hardware/qcom/media" name="sandyorton7/media" remote="github" revision="pie"/> -->
+<!-- <project path="hardware/qcom/audio" name="sandyorton7/audio" remote="github" revision="pie"/> -->
+<!-- <project path="hardware/qcom/bt" name="sandyorton7/bt" remote="github" revision="pie"/> -->
+<!-- <project path="hardware/qcom/wlan" name="sandyorton7/wlan" remote="github" revision="pie"/> -->
+<!-- <project path="hardware/qcom/power" name="sandyorton7/power" remote="github" revision="pie"/>  -->
 
 
 </manifest>
-
