@@ -5,6 +5,10 @@
 <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-16.0"/>
 <project path="system/qcom" name="LineageOS/android_system_qcom" remote="github" revision="lineage-16.0" />
 
+<project path="kernel/motorola/msm8953" name="jadilson12/kernel_motorola_msm8953" remote="github" revision="9.0-eas" /> 
+<project path="device/motorola/sanders" name="jadilson12/device_motorola_sanders" remote="github" revision="android-9.0" />
+<project path="vendor/motorola/sanders" name="jadilson12/vendor_motorola_sanders" remote="github" revision="android-9.0" />
+
 
 <!-- <remove-project name="LineageOS/android_hardware_qcom_audio" /> -->
 <!-- <remove-project name="LineageOS/android_hardware_qcom_media"/> -->
